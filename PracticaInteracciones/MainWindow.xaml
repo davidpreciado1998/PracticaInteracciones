@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Canvas>
         <TextBlock Canvas.Left="10" Canvas.Top="10" Width="63" FontSize="18" Text="Cuenta:"/>
-        <Slider ValueChanged="sldPorcentajePropina_ValueChanged" Name="sldPorcentajePropina" Canvas.Left="10" Canvas.Top="104" Width="397" />
+        <Slider ValueChanged="sldPorcentajePropina_ValueChanged" Name="sldPorcentajePropina" Canvas.Left="10" Canvas.Top="104" Width="397" Maximum="100" />
         <TextBox Name="txtCuenta" Height="29" Canvas.Left="10" TextWrapping="Wrap" Text="100" Canvas.Top="49" Width="397" FontSize="18"/>
         <TextBlock Height="27" Canvas.Left="10" TextWrapping="Wrap" Text="Total con propina:" Canvas.Top="127" Width="163" FontSize="18"/>
         <TextBlock Name="lblTotalConPropina" Height="25" Canvas.Left="10" TextWrapping="Wrap" Text="$0.00" Canvas.Top="159" Width="149" FontSize="18"/>
